@@ -1,0 +1,12 @@
+
+	weather-time .hours::after {
+		content: ':'
+	}
+	weather-time .ampm {
+		margin-left: 0.5em;
+	}
+	
+body {
+	background-color: #000;
+	text-color: white;
+}

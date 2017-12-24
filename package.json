@@ -1,0 +1,24 @@
+{
+	"name": "nz-tools",
+	"description": "Enzey Tools",
+	"version": "0.1.0",
+	"homepage": "https://github.com/EnzeyNet/nz-tools",
+	"bugs": "https://github.com/EnzeyNet/nz-tools/issues",
+	"author": {
+		"name": "Joseph Aspelund",
+		"email": "enzey@enzey.net",
+		"url": "https://github.com/Xanir"
+	},
+	"scripts": {
+		"host": "static dist",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/EnzeyNet/nz-tools.git"
+	},
+	"devDependencies": {
+		"node-static": "0.7.10",
+		"webpack": "3.10.0"
+	}
+}
