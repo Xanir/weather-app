@@ -1,4 +1,8 @@
 
+	weather-time {
+		font-size: 20vw;
+	}
+
 	weather-time .hours::after {
 		content: ':'
 	}
@@ -8,5 +12,6 @@
 	
 body {
 	background-color: #000;
-	text-color: white;
+	color: white;
+    font-family: sans-serif;
 }
